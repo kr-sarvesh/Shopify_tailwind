@@ -11,17 +11,92 @@
     />
     <title>Shopify Shopping Clone</title>
   </head>
-  <body>
-    <div class="py-2 bg-[#fbf7ed]">
-      <header class="w-full fixed top-0 bg-[#fbf7ed]">
+
+  <div class="py-2 bg-[#fbf7ed]">
+    <!-- Added navigation section -->
+    <header class="w-full fixed top-0 bg-[#fbf7ed] ">
         <div class="px-3 lg:px-16 flex justify-between items-center py-4">
-          <div class="w-[36rem]">
-            <div class="flex items-center justify-between">
-              <div class="w-1/3. flex flex-row items-center"></div>
+            <div class="w-[36rem]">
+                <div class="flex items-center justify-between">
+                    <div class="w-1/3 flex flex-row items-center">
+                        <img class="h-12" src="/images/shopify-bag.png" alt="logo">
+                        <span class="text-[2rem] font-bold italic">shopify</span>
+                    </div>
+                    <div class="w-2/3">
+                        <div class="hidden lg:block flex flex-row justify-between items-center">
+                            <a href="#" class="text-gray-500 px-2 hover:text-black">Start <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <a href="#" class="text-gray-500 px-2 hover:text-black">Sell <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <a href="#" class="text-gray-500 px-2 hover:text-black">Market <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                            <a href="#" class="text-gray-500 px-2 hover:text-black">Manage <i
+                                    class="fa-solid fa-angle-down"></i> </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div>
+                <div class="flex items-center justify-between w-[20rem]">
+                    <div class="hidden lg:block flex flex-row w-2/3 justify-between items-center">
+                        <a href="#" class="text-gray-500 px-2 hover:text-black">Pricing</a>
+                        <a href="#" class="text-gray-500 px-2 hover:text-black">Learn <i
+                                class="fa-solid fa-angle-down"></i>
+                        </a>
+                        <a href="#" class="text-gray-500 px-2 hover:text-black">Log in</a>
+                    </div>
+                    <div class="w-1/3 hidden lg:block">
+                        <a href="#">
+                            <button class="bg-[#008060] p-2 px-3 text-white font-semibold border rounded">
+                                Try for free
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row items-center justify-between absolute right-4 lg:right-12 lg:hidden sm:block">
+                <a href="#" class="text-xl text-gray-500 hover:text-black mr-4">Log in</a>
+                <i class="fa-solid fa-bars text-gray-500 hover:text-black px-2"></i>
+                <button
+                    class="bg-[#008060] p-2 px-3 text-white font-semibold border rounded hidden md:block lg:hidden">
+                    Try for free
+                </button>
+            </div>
         </div>
-      </header>
-    </div>
-  </body>
+    </header>
+<!-- Added header section   -->
+    <section class="bg-[#fbf7ed]">
+      <div class="px-3 lg:px-16">
+          <div class="container px-auto py-5 flex flex-wrap items-center">
+              <div class="lg:w-1/2">
+                  <div>
+                      <h1 class="text-[#004c3f] font-bold title-font sm:text-5xl text-3xl mb-12 ">The easiest way
+                          to sell <br>online in India</h1>
+                      <p class="mb-8 leading-relaxed lg:text-2xl sm:text-xl text-gray-600">Try one of the most
+                          powerful platforms on the market for free. No technical knowledge needed.</p>
+                      <div class="">
+                          <form class="py-6 flex flex-col md:flex-row md:w-auto" action="#">
+                              <input
+                                  class="px-3 p-3 border border-slate-800 focus:[#004c3f] rounded-md sm:text-sm md:w-3/5"
+                                  type="email" placeholder="Enter your email address">
+                              <button
+                                  class="bg-[#008060] md:mx-2 p-2.5 px-3 text-white md:w-1/5 font-semibold border rounded"
+                                  type="submit">Try for free</button>
+                          </form>
+                      </div>
+                      <p class="text-sm text-gray-500">Try Shopify free for 14 days, no credit card required. By
+                          entering your email, you agree to receive marketing emails from Shopify.</p>
+                  </div>
+              </div>
+              <div class="lg:w-1/2">
+                  <img class="right-0"
+                      src="images/in-hero-product-small-0c64c4c1013fc8ac477cb5ff62bf5b56b2903aec697e6b708b90d3b65a09baf8.jpg"
+                      alt="hero-img">
+              </div>
+          </div>
+      </div>
+  </section>
+
+   </div>
+</body>
 </html>
